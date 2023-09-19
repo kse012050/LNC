@@ -2,6 +2,8 @@
 /* 컨텐츠 사이즈 */
 .contentSize{max-width: var(--maxWidth); width: calc(100% - (var(--spacing) * 2)); margin-inline: auto;}
 
+.spacingBC{background-color: var(--BGColor); box-shadow: 0 0 0 100vmax var(--BGColor); clip-path: inset(0 -100vmax);}
+
 /* 해더 */
 header{--topHeight: 100px; position: absolute; left: 0; top: 0; width: 100%; z-index: 100;}
 header h1{position: absolute; left: 30px; top: 25px;}
@@ -25,7 +27,7 @@ header nav > ul:hover > li ul{display: block;}
 header nav > ul:hover > li ul li a:hover{display: block; color: var(--colorPoint1);}
 
 /* 푸터 */
-footer{padding-block: 60px var(--spacing); --backgroundColor: #289340; background-color: var(--colorPoint1); box-shadow: 0 0 0 100vmax var(--colorPoint1); clip-path: inset(0 -100vmax); position: relative;}
+footer{padding-block: 60px var(--spacing); --BGColor: var(--colorPoint1); position: relative;}
 footer img{width: 290px; margin-bottom: 40px;}
 footer address{max-width: 645px; display: flex; flex-wrap: wrap; font-size: 16px; color: rgba(255, 255, 255, 0.3); line-height: 19px; row-gap: 12px;}
 footer address > *{display: flex; align-items: center;}

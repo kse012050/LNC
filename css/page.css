@@ -1,5 +1,37 @@
 /* 메인 페이지 */
 /* 메인 페이지 - 슬라이더 */
-.mainPage .topBox .swiper{}
-.mainPage .topBox .swiper .swiper-slide{height: 970px; display: flex; flex-direction: column; justify-content: center; align-items: center; background-repeat: no-repeat; background-position: center; background-size: cover;}
+.mainPage .topBox .swiper .swiper-slide{height: 970px; display: flex; flex-direction: column; justify-content: center; align-items: center; background-repeat: no-repeat; background-position: center; background-size: cover; font-size: 60px; line-height: 75px; color: white;}
 .mainPage .topBox .swiper .swiper-slide.slide01{background-image: url('../images/topBG-main.png');}
+.mainPage .topBox .swiper .swiper-slide p{font-weight: 300;}
+.mainPage .topBox .swiper-pagination{bottom: 350px;}
+.mainPage .topBox .swiper-pagination .swiper-pagination-bullet{width: 10px; height: 10px; margin-inline: 10px; border: 1px solid white; background-color: transparent;}
+.mainPage .topBox .swiper-pagination .swiper-pagination-bullet[class*="active"]{background-color: white;}
+/* 메인 페이지 - 슬로건 */
+.mainPage .sloganArea{padding-block: 300px; text-align: center;}
+.mainPage .sloganArea p{font-size: 65px; font-weight: 300; line-height: 68.5px;}
+.mainPage .sloganArea p strong{display: block; font-weight: 700;}
+.mainPage .sloganArea p strong span{position: relative;}
+.mainPage .sloganArea p strong span::before{content: ''; position: absolute; left: 0; bottom: 0; width: 100%; height: 20px; background-color: #cdd8e5; z-index: -1;}
+.mainPage .sloganArea img{width: 292px; margin-top: 80px;}
+/* 메인 페이지 - 납품 */
+.mainPage .deliveryArea{display: flex;}
+.mainPage .deliveryArea li{flex: 1; aspect-ratio: 1; background-image: url('../images/bg-main.png'); background-position: 100% calc(100% * var(--styleIdx)); background-size: cover; padding: 100px 60px; box-sizing: border-box; display: flex; flex-direction: column; justify-content: flex-end;}
+.mainPage .deliveryArea li strong{font-size: 36px; line-height: 48.5px; color: white;}
+.mainPage .deliveryArea li p{font-size: 18px; font-weight: 300; line-height: 24.5px; color: rgba(255, 255, 255, 0.8); margin-top: 40px;}
+/* 메인 페이지 - 사명 */
+.mainPage .missionArea{display: flex; align-items: center; gap: 80px; padding-block: 140px 180px;}
+.mainPage .missionArea div{display: flex; flex-direction: column; justify-content: center; max-width: 480px;}
+.mainPage .missionArea div h2{font-size: 50px; line-height: 60px; margin-bottom: 30px;}
+.mainPage .missionArea div p{font-size: 20px; font-weight: 300; line-height: 28px;}
+.mainPage .missionArea ul{flex: 1; display: flex; gap: 30px;}
+.mainPage .missionArea ul li{flex: 1; aspect-ratio: 380 / 560; background-color: var(--colorPoint1); border-radius: 20px; display: flex; flex-direction: column; justify-content: flex-end; padding: 50px 40px; font-size: 30px; color: white; line-height: 36px;}
+.mainPage .missionArea ul li::before{content: ''; align-self: center; --width: 200px; width: 200px; aspect-ratio: 1; background: url('../images/icon-main.png') no-repeat center top calc(var(--width) * var(--styleIdx) * -1) / 100%; margin-bottom: 106px;}
+/* 메인 페이지 - 특징 */
+.mainPage .featuresArea{padding-block: 136px 180px; --BGColor: var(--colorBG);}
+.mainPage .featuresArea h2{font-size: 50px; line-height: 60px; margin-bottom: 60px;}
+.mainPage .featuresArea ul{display: flex; gap: 30px; text-align: center;}
+.mainPage .featuresArea ul li{flex: 1; padding: 60px; background-color: white; border-radius: 20px;}
+.mainPage .featuresArea ul li::before{content: ''; display: block; width: 140px; aspect-ratio: 1; background-image: url('../images/icon-characteristic.png'); background-position: center; background-size: cover; margin: 0 auto 40px;}
+.mainPage .featuresArea ul li strong{font-size: 30px; line-height: 36px;}
+.mainPage .featuresArea ul li p{font-size: 20px; font-weight: 300; line-height: 24px; margin-top: 15px;}
+.mainPage .featuresArea ul li a{display: block; font-size: 18px; color: #bbb; text-decoration: underline; margin-top: 40px;}
