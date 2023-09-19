@@ -35,3 +35,14 @@
 .mainPage .featuresArea ul li strong{font-size: 30px; line-height: 36px;}
 .mainPage .featuresArea ul li p{font-size: 20px; font-weight: 300; line-height: 24px; margin-top: 15px;}
 .mainPage .featuresArea ul li a{display: block; font-size: 18px; color: #bbb; text-decoration: underline; margin-top: 40px;}
+
+
+/* 기업 소개 */
+/* 기업 소개 - 회사소개 */
+.companyPage .introductPage{text-align: center; padding-block: 140px 240px;}
+.companyPage .introductPage img{width: 180px; margin-bottom: 80px;}
+.companyPage .introductPage h3{font-size: 36px; line-height: 43px;}
+.companyPage .introductPage p{font-size: 20px; font-weight: 300; line-height: 29.34px; margin-top: 30px;}
+/* 기업 소개 - 대표 인사말 */
+/* 기업 소개 - 회사 연혁 */
+/* 기업 소개 - 기업 조직도 */
