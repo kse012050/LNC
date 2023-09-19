@@ -6,7 +6,8 @@
 .spacingBC{background-color: var(--BGColor); box-shadow: 0 0 0 100vmax var(--BGColor); clip-path: inset(0 -100vmax);}
 
 /* 포인트 칼라 */
-mark{color: var(--colorPoint2);}
+mark:not([class]){color: var(--colorPoint2);}
+mark.bg{color: white; background-color: var(--colorPoint2); border-radius: 6px;}
 
 /* 서브 페이지 상단 */
 .subPage .topBox{padding-block: 220px 203px; text-align: center; background-position: center; background-size: cover; position: relative;}

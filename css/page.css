@@ -41,7 +41,7 @@
 .subPage > [class*="Page"] h3:first-child{font-size: 40px; line-height: 48px;}
 .subPage > [class*="Page"] h3:first-child:has(+ div, + ul){margin-bottom: 120px;}
 .subPage > [class*="Page"] > div{display: flex; justify-content: space-between;}
-.subPage > [class*="Page"] > div mark{min-width: 255px; font-size: 28px; line-height: 34px;}
+.subPage > [class*="Page"] > div > mark{min-width: 255px; font-size: 28px; line-height: 34px;}
 .subPage > [class*="Page"] > div:not(:last-child){margin-bottom: 180px;}
 
 /* 기업 소개 */
@@ -80,16 +80,16 @@
 
 
 /* 산업 안내 */
-.businessPage [class*="Page"] > div > *:not(:first-child){width: 75%;}
+:is(.businessPage, .disabledPage) [class*="Page"] > div > *:not(:first-child){width: 75%;}
 /* 산업 안내 - 주요 산업 */
 .progressBox{--listSpacing: 93px; display: flex; gap: var(--listSpacing); text-align: center;}
-.progressBox li{flex: 1; height: 343px; border: 1px solid var(--colorLine); border-radius: 20px; display: flex; flex-direction: column; align-items: center; padding: 60px 30px; box-sizing: border-box; position: relative;}
+.progressBox li{flex: 1; height: 343px; border: 1px solid var(--colorLine); border-radius: 20px; display: flex; flex-direction: column; align-items: center; padding-inline: 30px; box-sizing: border-box; position: relative;}
 .progressBox li::before{content: ''; /* --width: 120px; width: 120px; */ --height: 90px; height: var(--height);  aspect-ratio: 4 / 3; margin-bottom: 30px; background-position: left top calc(var(--height) * var(--styleIdx) * -1); background-size: 100%;}
-.progressBox li:not(:last-child):after{content: ''; width: 50px; aspect-ratio: 1; position: absolute; right: calc(var(--listSpacing) * -1); top: 50%; transform: translate(-50%, -50%); background: url('../images/icon-arrow.png') no-repeat center / cover;}
+.progressBox li:not(:last-child):after{content: ''; width: 50px; aspect-ratio: 1; position: absolute; right: calc(var(--listSpacing) * -1); top: 50%; transform: translate(-50%, -50%); background: url('../images/icon-arrow-right.png') no-repeat center / cover;}
 .progressBox li strong{font-size: 24px; line-height: 29px; margin-bottom: 20px;}
 .progressBox li p{font-size: 20px; font-weight: 300; line-height: 27px; color: var(--colorFont2);}
+.businessPage .majorPage .progressBox li{counter-increment: progress; padding-block: 60px;}
 .businessPage .majorPage .progressBox li::before{background-image: url('../images/icon-business.png');}
-.businessPage .majorPage .progressBox li{counter-increment: progress;}
 .businessPage .majorPage .progressBox li strong::before{content: 'STEP 0' counter(progress); position: absolute; left: 50%; top: 0; transform: translate(-50%, -50%); font-size: 18px; color: white; padding: 8px 17px; background-color: var(--colorPoint2); border-radius: 23px;}
 .businessPage .majorPage .facilityArea div p{display: block; font-size: 24px; line-height: 29px; color: var(--colorFont2); margin-bottom: 30px;}
 .businessPage .majorPage .facilityArea div ul{display: flex; flex-wrap: wrap; justify-content: space-between;}
@@ -105,3 +105,61 @@
 .businessPage .partnerPage > div ul li::before{content: ''; display: block; width: 100%; aspect-ratio: 420 / 260; background: url('../images/img-partners.png') no-repeat left top calc(20% * var(--styleIdx)) / 100%; border: 1px solid var(--colorLine); margin-bottom: 30px;}
 .businessPage .partnerPage > div ul li p{display: flex; flex-wrap: wrap; justify-content: center; font-size: 24px; font-weight: 300; line-height: 38.5px; padding-inline: 40px;}
 .businessPage .partnerPage > div ul li p b{font-weight: 700;}
+
+
+/* 장애인 표준 사업장 인증 */
+/* 장애인 표준 사업장 인증 - 장애인 표준 사업장 인증 */
+.disabledPage .workPlacePage h3{margin-bottom: 60px;}
+.disabledPage .workPlacePage > img{max-width: 274px; margin-bottom: 30px;}
+.disabledPage .workPlacePage > p{font-size: 24px; line-height: 31.5px; font-weight: 300; margin-bottom: 160px;}
+.disabledPage .workPlacePage .situationArea div table{width: 100%; font-size: 20px;}
+.disabledPage .workPlacePage .situationArea div table tr:first-child > *{width: 20%; text-align: center;}
+.disabledPage .workPlacePage .situationArea div table thead tr{border-width: 1px 0; border-style: solid; border-color: var(--colorFont1) transparent var(--colorLine);}
+.disabledPage .workPlacePage .situationArea div table thead tr th{background-color: var(--colorBG); padding-block: 25px;}
+.disabledPage .workPlacePage .situationArea div table tbody tr{border-bottom: 1px solid var(--colorLine);}
+.disabledPage .workPlacePage .situationArea div table tbody tr:first-child td{font-weight: 300; padding-block: 41px;}
+.disabledPage .workPlacePage .situationArea div table tbody tr.imgArea td{padding-block: 39.5px;}
+.disabledPage .workPlacePage .situationArea div table tbody tr.imgArea td figure{display: flex; justify-content: center; align-items: center; gap: 100px;}
+.disabledPage .workPlacePage .situationArea div table tbody tr.imgArea td figure img{max-width: 310px;}
+.disabledPage .workPlacePage .situationArea div table tbody tr.imgArea td figure figcaption{display: flex; flex-direction: column; justify-content: baseline;}
+.disabledPage .workPlacePage .situationArea div table tbody tr.imgArea td figure figcaption b{font-size: 24px; line-height: 29px; margin-bottom: 20px;}
+.disabledPage .workPlacePage .situationArea div table tbody tr.imgArea td figure figcaption dl{font-size: 20px; font-weight: 300; line-height: 33.6px; display: flex;}
+.disabledPage .workPlacePage .situationArea div table tbody tr.imgArea td figure figcaption dl dt{display: flex; align-items: center;}
+.disabledPage .workPlacePage .situationArea div table tbody tr.imgArea td figure figcaption dl dt::after{content: ':'; margin-inline: 0.4em;}
+.disabledPage .workPlacePage .benefitsArea > div > ol{--contentSpacing: 40px; padding: var(--contentSpacing); border: 1px solid var(--colorLine); margin-bottom: 60px;}
+.disabledPage .workPlacePage .benefitsArea > div > ol li{counter-increment: olCount; font-size: 24px; position: relative; padding-inline: 60px;}
+.disabledPage .workPlacePage .benefitsArea > div > ol li::before{content: counter(olCount); position: absolute; left: 0; top: 0; width: var(--contentSpacing); line-height: var(--contentSpacing); color: white; text-align: center; background-color: var(--colorPoint2); border-radius: 100%;}
+.disabledPage .workPlacePage .benefitsArea > div > ol li:not(:last-child){margin-bottom: 30px;}
+.disabledPage .workPlacePage .benefitsArea > div > ol li b{display: block; line-height: var(--contentSpacing);}
+.disabledPage .workPlacePage .benefitsArea > div > ol li p{font-size: 20px; font-weight: 300; line-height: 24px; margin-top: 15px; padding-bottom: 5px;}
+.disabledPage .workPlacePage .benefitsArea > div > mark{display: block; font-size: 20px; line-height: 24px; margin-bottom: 20px;}
+.disabledPage .workPlacePage .benefitsArea > div > p{font-size: 18px; font-weight: 300; line-height: 23.5px; color: var(--colorFont2); margin-bottom: 20px;}
+.disabledPage .workPlacePage .benefitsArea > div > small{display: block; font-size: 18px; font-weight: 300; line-height: 21px; color: var(--colorFont3); margin-bottom: 120px;}
+.disabledPage .workPlacePage .benefitsArea > div .tabBtn{display: flex; margin-bottom: 60px;}
+.disabledPage .workPlacePage .benefitsArea > div .tabBtn li{flex: 1;}
+.disabledPage .workPlacePage .benefitsArea > div .tabBtn li button{width: 100%; height: 70px; font-size: 20px; color: #bbb; border-width: 0; border-style: solid; border-color: var(--colorPoint2);}
+.disabledPage .workPlacePage .benefitsArea > div .tabBtn li:not(.active) button{border-bottom-width: 1px; background-color: var(--colorBG);}
+.disabledPage .workPlacePage .benefitsArea > div .tabBtn li.active button{border-width: 1px 1px 0;}
+.disabledPage .workPlacePage .benefitsArea > div .tabBtn li:is(:hover, .active) button{color: var(--colorPoint2);}
+.disabledPage .workPlacePage .benefitsArea > div .tabContent > li{display: none; padding-inline: 40px;}
+.disabledPage .workPlacePage .benefitsArea > div .tabContent > li.active{display: block;}
+.disabledPage .workPlacePage .benefitsArea > div .tabContent > li:first-child{}
+.disabledPage .workPlacePage .benefitsArea > div .tabContent > li:first-child dl{display: flex; justify-content: flex-end; align-items: center; font-size: 18px; line-height: 21px; margin-bottom: 30px;}
+.disabledPage .workPlacePage .benefitsArea > div .tabContent > li:first-child dl dt{font-weight: 300; color: var(--colorFont3);}
+.disabledPage .workPlacePage .benefitsArea > div .tabContent > li:first-child dl dd{margin-left: 20px;}
+.disabledPage .workPlacePage .benefitsArea > div .tabContent > li:first-child .progressBox li{padding-block: 40px 50px;}
+.disabledPage .workPlacePage .benefitsArea > div .tabContent > li:first-child .progressBox li::before{background-image: url('../images/icon-disabled.png');}
+.disabledPage .workPlacePage .benefitsArea > div .tabContent > li:first-child a{display: block; width: 290px; margin-inline: auto; margin-top: 80px;}
+.disabledPage .workPlacePage .benefitsArea > div .tabContent > li:first-child a mark{display: block; font-size: 20px; line-height: 70px; text-align: center;}
+.disabledPage .workPlacePage .benefitsArea > div .tabContent > li:nth-child(2) p{font-size: 20px; font-weight: 300; line-height: 24px; margin-bottom: 30px;}
+.disabledPage .workPlacePage .benefitsArea > div .tabContent > li:nth-child(2) > div{display: flex; flex-direction: column; align-items: center; border: 1px solid var(--colorLine); border-radius: 20px; padding: 60px;}
+.disabledPage .workPlacePage .benefitsArea > div .tabContent > li:nth-child(2) > div > *{max-width: 650px; width: 100%;}
+.disabledPage .workPlacePage .benefitsArea > div .tabContent > li:nth-child(2) > div b{font-size: 20px; line-height: 24px; margin-bottom: 20px;}
+.disabledPage .workPlacePage .benefitsArea > div .tabContent > li:nth-child(2) > div div{position: relative; font-size: 24px;}
+.disabledPage .workPlacePage .benefitsArea > div .tabContent > li:nth-child(2) > div div::after{content: '원'; font-weight: 300; position: absolute; right: 30px; top: 50%; transform: translateY(-50%);}
+.disabledPage .workPlacePage .benefitsArea > div .tabContent > li:nth-child(2) > div div input{width: 100%; height: 80px; border: 1px solid var(--colorLine); border-radius: 6px; box-sizing: border-box;}
+.disabledPage .workPlacePage .benefitsArea > div .tabContent > li:nth-child(2) > div mark{--MT: 96px; font-size: 32px; height: 140px; display: flex; justify-content: center; align-items: center; margin-top: var(--MT); position: relative;}
+.disabledPage .workPlacePage .benefitsArea > div .tabContent > li:nth-child(2) > div mark::before{content: ''; position: absolute; left: 50%; top: calc(var(--MT) / 2 * -1); transform: translate(-50%, -50%); width: 56px; aspect-ratio: 56 / 36; background: url('../images/icon-arrow-down.png') no-repeat center / cover;}
+.disabledPage .workPlacePage .benefitsArea > div .tabContent > li:nth-child(2) > div mark small{font-size: 24px; margin-top: 5px; margin-right: 0.4em;}
+.disabledPage .workPlacePage .benefitsArea > div .tabContent > li:nth-child(2) > div p{font-size: 18px; font-weight: 300; text-align: center; margin-top: 30px;}
+/* 장애인 표준 사업장 인증 - 인증 자료 */
