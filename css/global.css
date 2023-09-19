@@ -2,7 +2,16 @@
 /* 컨텐츠 사이즈 */
 .contentSize{max-width: var(--maxWidth); width: calc(100% - (var(--spacing) * 2)); margin-inline: auto;}
 
+/*  */
 .spacingBC{background-color: var(--BGColor); box-shadow: 0 0 0 100vmax var(--BGColor); clip-path: inset(0 -100vmax);}
+
+.subPage .topBox{padding-block: 220px 203px; text-align: center; background-position: center; background-size: cover; position: relative;}
+.subPage .topBox h2{font-size: 56px; line-height: 67px; color: white;}
+.subPage .topBox ul{position: absolute; left: 0; bottom: 0; width: 100%; display: flex;}
+.subPage .topBox ul li{flex: 1;}
+.subPage .topBox ul li a{display: block; font-size: 20px; line-height: 70px; color: white; text-align: center; /* padding-block: 25px; */ background-color: rgba(255, 255, 255, 0.2);}
+.subPage .topBox ul li:is(.active, :hover) a{background-color: var(--colorPoint2);}
+.subPage.companyPage .topBox{background-image: url('../images/topBG-company.png');}
 
 /* 해더 */
 header{--topHeight: 100px; position: absolute; left: 0; top: 0; width: 100%; z-index: 100;}
