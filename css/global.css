@@ -7,7 +7,7 @@
 
 /* 포인트 칼라 */
 mark:not([class]){color: var(--colorPoint2);}
-mark.bg{color: white; background-color: var(--colorPoint2); border-radius: 6px;}
+mark.bg, .bgBox{color: white; background-color: var(--colorPoint2); border-radius: 6px;}
 
 /* 서브 페이지 상단 */
 .subPage .topBox{padding-block: 220px 203px; text-align: center; background-position: center; background-size: cover; position: relative;}
@@ -19,6 +19,7 @@ mark.bg{color: white; background-color: var(--colorPoint2); border-radius: 6px;}
 .subPage.companyPage .topBox{background-image: url('../images/topBG-company.png');}
 .subPage.businessPage .topBox{background-image: url('../images/topBG-business.png');}
 .subPage.disabledPage .topBox{background-image: url('../images/topBG-disabled.png');}
+.subPage.cooperationPage .topBox{background-image: url('../images/topBG-cooperation.png');}
 
 /* 해더 */
 header{--topHeight: 100px; position: absolute; left: 0; top: 0; width: 100%; z-index: 100;}
