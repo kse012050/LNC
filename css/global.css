@@ -17,6 +17,7 @@ mark{color: var(--colorPoint2);}
 .subPage .topBox ul li:is(.active, :hover) a{background-color: var(--colorPoint2);}
 .subPage.companyPage .topBox{background-image: url('../images/topBG-company.png');}
 .subPage.businessPage .topBox{background-image: url('../images/topBG-business.png');}
+.subPage.disabledPage .topBox{background-image: url('../images/topBG-disabled.png');}
 
 /* 해더 */
 header{--topHeight: 100px; position: absolute; left: 0; top: 0; width: 100%; z-index: 100;}
