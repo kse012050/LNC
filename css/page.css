@@ -44,8 +44,8 @@
 .companyPage .introductPage h3{font-size: 36px; line-height: 43px;}
 .companyPage .introductPage p{font-size: 20px; font-weight: 300; line-height: 29.34px; margin-top: 30px;}
 /* 기업 소개 - 대표 인사말 */
-.companyPage .greetPage{padding-block: 140px 200px; display: flex; flex-wrap: wrap; justify-content: space-between; row-gap: 120px;}
-.companyPage .greetPage h2{width: 100%; font-size: 40px; line-height: 48px;}
+.companyPage :is(.greetPage, .historyPage){padding-block: 140px 200px; display: flex; flex-wrap: wrap; justify-content: space-between; row-gap: 120px;}
+.companyPage :is(.greetPage, .historyPage) h3{width: 100%; font-size: 40px; line-height: 48px;}
 .companyPage .greetPage div{width: 44.3181%; display: flex; flex-direction: column;}
 .companyPage .greetPage div strong{font-size: 24px; line-height: 31.5px; font-weight: 400; margin-bottom: 40px;}
 .companyPage .greetPage div strong b{display: block; font-weight: 700;}
@@ -53,4 +53,12 @@
 .companyPage .greetPage div p:not(:last-child){margin-bottom: 29.5px;}
 .companyPage .greetPage img{width: 50%; /* height: 604px; */ object-fit: cover;}
 /* 기업 소개 - 회사 연혁 */
+.companyPage .historyPage ol{width: 25%;}
+.companyPage .historyPage ol:nth-last-child(n + 5){margin-bottom: 40px;}
+.companyPage .historyPage ol::before{content: attr(title); display: block; font-size: 36px; line-height: 50px; margin-bottom: 60px;}
+.companyPage .historyPage ol li{font-size: 20px; line-height: 24px; color: var(--colorFont3); padding-inline: 28px; position: relative;}
+.companyPage .historyPage ol li:not(:last-child){margin-bottom: 30px;}
+.companyPage .historyPage ol li::before{content: ''; width: 8px; aspect-ratio: 1; background-color: var(--colorPoint2); border-radius: 100%; position: absolute; left: 0; top: 8px; z-index: 1;}
+.companyPage .historyPage ol li:not(:last-child)::after{content: ''; position: absolute; left: 3.5px; top: 12px; width: 1px; height: 54px; background-color: var(--colorLine);}
+.companyPage .historyPage ol li span{display: block; margin-top: 10px;}
 /* 기업 소개 - 기업 조직도 */
