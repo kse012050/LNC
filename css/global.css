@@ -1,0 +1,34 @@
+
+/* 컨텐츠 사이즈 */
+.contentSize{max-width: var(--maxWidth); width: calc(100% - (var(--spacing) * 2)); margin-inline: auto;}
+
+/* 해더 */
+header{--topHeight: 100px; position: absolute; left: 0; top: 0; width: 100%; z-index: 100;}
+header h1{position: absolute; left: 30px; top: 25px;}
+header h1 a{width: 83px; aspect-ratio: 83 / 50; background-image: url('../images/logo-w.png'); background-position: center; background-size: cover; text-indent: -9999px;}
+header nav{display: flex; justify-content: center;}
+header nav > ul{display: flex; justify-content: center; --linkSpacing: 20px; gap: calc(var(--linkSpacing) * 2);}
+header nav > ul > li button{font-size: 18px; color: rgba(255, 255, 255, 0.5); line-height: var(--topHeight); padding-inline: var(--linkSpacing);}
+header nav > ul > li.active button{color: white;}
+.mainPage header nav > ul > li button{color: white;}
+header nav > ul > li ul{display: none; padding-block: 30px 50px;}
+header nav > ul > li ul li a{font-size: 16px; line-height: 39px; color: #bbb; padding-inline: var(--linkSpacing);}
+
+header:has(nav > ul:hover){background-color: white;}
+header:has(nav > ul:hover)::before{content: ''; position: absolute; left: 0; top: var(--topHeight); width: 100%; height: 1px; background-color: var(--colorLine);}
+header:has(nav > ul:hover) h1 a{background-image: url('../images/logo.png');}
+header nav > ul:hover > li button{color: var(--colorFont1);}
+header nav > ul:hover > li:hover{position: relative;}
+header nav > ul:hover > li:hover::before{content: ''; position: absolute; left: 0; top: var(--topHeight); width: 100%; height: 1px; background-color: var(--colorPoint1);}
+header nav > ul:hover > li ul{display: block;}
+header nav > ul:hover > li ul li a:hover{display: block; color: var(--colorPoint1);}
+
+/* 푸터 */
+footer{padding-block: 60px var(--spacing); --backgroundColor: #289340; background-color: var(--colorPoint1); box-shadow: 0 0 0 100vmax var(--colorPoint1); clip-path: inset(0 -100vmax); position: relative;}
+footer img{width: 290px; margin-bottom: 40px;}
+footer address{max-width: 645px; display: flex; flex-wrap: wrap; font-size: 16px; color: rgba(255, 255, 255, 0.3); line-height: 19px; row-gap: 12px;}
+footer address > *{display: flex; align-items: center;}
+footer address > *:is(:nth-child(1), :nth-child(2), :nth-child(5), :nth-child(6)):after{content: ''; width: 2px; height: 0.9375em; background-color: rgba(255, 255, 255, 0.15); margin-inline: 14px;}
+footer address dl dt{display: flex; align-items: center;}
+footer address dl dt::after{content: ':'; margin-inline: 0.5em;}
+footer a{position: absolute; right: 0; top: 60px; width: 230px; font-size: 18px; line-height: 60px; color: white; text-align: center; border: 1px solid white; border-radius: 6px;}

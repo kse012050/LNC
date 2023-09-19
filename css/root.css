@@ -1,0 +1,11 @@
+:root{
+    --colorPoint1: #011936;
+    --colorPoint2: #00316C;
+    --colorFont1: #222222;
+    --colorFont2: #666666;
+    --colorFont3: #999999;
+    --colorBG: #F1F1F1;
+    --colorLine: #DEDEDE;
+    --maxWidth: 1920px;
+    --spacing: 80px;
+}

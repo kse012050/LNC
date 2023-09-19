@@ -1,0 +1,5 @@
+/* 메인 페이지 */
+/* 메인 페이지 - 슬라이더 */
+.mainPage .topBox .swiper{}
+.mainPage .topBox .swiper .swiper-slide{height: 970px; display: flex; flex-direction: column; justify-content: center; align-items: center; background-repeat: no-repeat; background-position: center; background-size: cover;}
+.mainPage .topBox .swiper .swiper-slide.slide01{background-image: url('../images/topBG-main.png');}
