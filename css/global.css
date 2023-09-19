@@ -1,6 +1,6 @@
 
 /* 컨텐츠 사이즈 */
-.contentSize{max-width: var(--maxWidth); width: calc(100% - (var(--spacing) * 2)); margin-inline: auto;}
+.contentSize{max-width: calc(var(--maxWidth) - var(--spacing) * 2); width: calc(100% - (var(--spacing) * 2)); margin-inline: auto;}
 
 /*  */
 .spacingBC{background-color: var(--BGColor); box-shadow: 0 0 0 100vmax var(--BGColor); clip-path: inset(0 -100vmax);}
