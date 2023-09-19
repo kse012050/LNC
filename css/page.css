@@ -80,8 +80,8 @@
 
 
 /* 산업 안내 */
+.businessPage [class*="Page"] > div > *:not(:first-child){width: 75%;}
 /* 산업 안내 - 주요 산업 */
-.businessPage .majorPage > div > *:not(:first-child){width: 75%;}
 .progressBox{--listSpacing: 93px; display: flex; gap: var(--listSpacing); text-align: center;}
 .progressBox li{flex: 1; height: 343px; border: 1px solid var(--colorLine); border-radius: 20px; display: flex; flex-direction: column; align-items: center; padding: 60px 30px; box-sizing: border-box; position: relative;}
 .progressBox li::before{content: ''; /* --width: 120px; width: 120px; */ --height: 90px; height: var(--height);  aspect-ratio: 4 / 3; margin-bottom: 30px; background-position: left top calc(var(--height) * var(--styleIdx) * -1); background-size: 100%;}
@@ -98,3 +98,10 @@
 .businessPage .majorPage .facilityArea div ul li:nth-last-child(n + 3){margin-bottom: 30px;}
 .businessPage .majorPage .facilityArea div ul li img{width: 100%;}
 /* 산업 안내 */
+.businessPage .partnerPage > div ul{display: flex; flex-wrap: wrap;}
+.businessPage .partnerPage > div ul li{width: calc((100% - 60px) / 3);}
+.businessPage .partnerPage > div ul li:not(:nth-child(3n)){margin-right: 30px;}
+.businessPage .partnerPage > div ul li:nth-child(n + 4){margin-top: 80px;}
+.businessPage .partnerPage > div ul li::before{content: ''; display: block; width: 100%; aspect-ratio: 420 / 260; background: url('../images/img-partners.png') no-repeat left top calc(20% * var(--styleIdx)) / 100%; border: 1px solid var(--colorLine); margin-bottom: 30px;}
+.businessPage .partnerPage > div ul li p{display: flex; flex-wrap: wrap; justify-content: center; font-size: 24px; font-weight: 300; line-height: 38.5px; padding-inline: 40px;}
+.businessPage .partnerPage > div ul li p b{font-weight: 700;}
