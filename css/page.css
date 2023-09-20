@@ -6,6 +6,14 @@
 .mainPage .topBox .swiper-pagination{bottom: 350px;}
 .mainPage .topBox .swiper-pagination .swiper-pagination-bullet{width: 10px; height: 10px; margin-inline: 10px; border: 1px solid white; background-color: transparent;}
 .mainPage .topBox .swiper-pagination .swiper-pagination-bullet[class*="active"]{background-color: white;}
+.mainPage .topBox{position: relative;}
+.mainPage .topBox .arrow{position: absolute; left: 50%; bottom: 40px; width: 43px; transform: translateX(-50%); z-index: 1;}
+.mainPage .topBox .arrow span{display: flex; width: 100%;}
+.mainPage .topBox .arrow span:first-child{margin-bottom: 19px;}
+.mainPage .topBox .arrow span:last-child{padding-bottom: 4px;}
+.mainPage .topBox .arrow span::before,.mainPage .topBox .arrow span::after{content: ''; flex: 1; height: 3px; background-color: white;}
+.mainPage .topBox .arrow span::before{transform-origin: right; transform: rotate(45deg);}
+.mainPage .topBox .arrow span::after{transform-origin: left; transform: rotate(-45deg);}
 /* 메인 페이지 - 슬로건 */
 .mainPage .sloganArea{padding-block: 300px; text-align: center;}
 .mainPage .sloganArea p{font-size: 65px; font-weight: 300; line-height: 68.5px;}
@@ -149,8 +157,7 @@
 .disabledPage .workPlacePage .benefitsArea > div .tabContent > li:first-child dl dd{margin-left: 20px;}
 .disabledPage .workPlacePage .benefitsArea > div .tabContent > li:first-child .progressBox li{padding-block: 40px 50px;}
 .disabledPage .workPlacePage .benefitsArea > div .tabContent > li:first-child .progressBox li::before{background-image: url('../images/icon-disabled.png');}
-.disabledPage .workPlacePage .benefitsArea > div .tabContent > li:first-child a{display: block; width: 290px; margin-inline: auto; margin-top: 80px;}
-.disabledPage .workPlacePage .benefitsArea > div .tabContent > li:first-child a mark{display: block; font-size: 20px; line-height: 70px; text-align: center;}
+.disabledPage .workPlacePage .benefitsArea > div .tabContent > li:first-child a{display: block; width: 290px; font-size: 20px; line-height: 70px; text-align: center; margin-inline: auto; margin-top: 80px;}
 .disabledPage .workPlacePage .benefitsArea > div .tabContent > li:nth-child(2) p{font-size: 20px; font-weight: 300; line-height: 24px; margin-bottom: 30px;}
 .disabledPage .workPlacePage .benefitsArea > div .tabContent > li:nth-child(2) > div{display: flex; flex-direction: column; align-items: center; border: 1px solid var(--colorLine); border-radius: 20px; padding: 60px;}
 .disabledPage .workPlacePage .benefitsArea > div .tabContent > li:nth-child(2) > div > *{max-width: 650px; width: 100%;}
