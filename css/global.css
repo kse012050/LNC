@@ -2,7 +2,7 @@
 /* 컨텐츠 사이즈 */
 .contentSize{max-width: calc(var(--maxWidth) - var(--spacing) * 2); width: calc(100% - (var(--spacing) * 2)); margin-inline: auto;}
 
-/*  */
+/* 가로 풆 배경 */
 .spacingBC{background-color: var(--BGColor); box-shadow: 0 0 0 100vmax var(--BGColor); clip-path: inset(0 -100vmax);}
 
 /* 포인트 칼라 */
@@ -33,7 +33,7 @@ header nav > ul > li.active > :is(a, button){color: white;}
 header nav > ul > li ul{display: none; padding-block: 30px 50px;}
 header nav > ul > li ul li a{font-size: 16px; line-height: 39px; color: #bbb; padding-inline: var(--linkSpacing);}
 header nav > ul > li ul li.active a{color: var(--colorPoint1);}
-
+/* 해더 - 호버 */
 header:has(nav > ul:hover){background-color: white;}
 header:has(nav > ul:hover)::before{content: ''; position: absolute; left: 0; top: var(--topHeight); width: 100%; height: 1px; background-color: var(--colorLine);}
 header:has(nav > ul:hover) h1 a{background-image: url('../images/logo.png');}

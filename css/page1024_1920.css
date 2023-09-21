@@ -1,0 +1,8 @@
+/* 메인 페이지 */
+/* 메인 페이지 - 슬라이더 */
+.mainPage .topBox .swiper .swiper-slide{height: 647px; font-size: 54px; line-height: 69px;}
+.mainPage .topBox .swiper-pagination{bottom: 204px;}
+.mainPage .topBox .arrow{bottom: 20px;}
+/* 메인 페이지 - 슬로건 */
+.mainPage .sloganArea img{margin-top: 70px;}
+/* 메인 페이지 - 납품 */

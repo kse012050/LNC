@@ -1,9 +1,8 @@
 /* 메인 페이지 */
 /* 메인 페이지 - 슬라이더 */
-.mainPage .topBox .swiper .swiper-slide{height: 970px; display: flex; flex-direction: column; justify-content: center; align-items: center; background-repeat: no-repeat; background-position: center; background-size: cover; font-size: 60px; line-height: 75px; color: white;}
+.mainPage .topBox .swiper .swiper-slide{display: flex; flex-direction: column; justify-content: center; align-items: center; background-repeat: no-repeat; background-position: center; background-size: cover; color: white;}
 .mainPage .topBox .swiper .swiper-slide.slide01{background-image: url('../images/topBG-main.png');}
 .mainPage .topBox .swiper .swiper-slide p{font-weight: 300;}
-.mainPage .topBox .swiper-pagination{bottom: 350px;}
 .mainPage .topBox .swiper-pagination .swiper-pagination-bullet{width: 10px; height: 10px; margin-inline: 10px; border: 1px solid white; background-color: transparent;}
 .mainPage .topBox .swiper-pagination .swiper-pagination-bullet[class*="active"]{background-color: white;}
 .mainPage .topBox{position: relative;}
@@ -15,12 +14,12 @@
 .mainPage .topBox .arrow span::before{transform-origin: right; transform: rotate(45deg);}
 .mainPage .topBox .arrow span::after{transform-origin: left; transform: rotate(-45deg);}
 /* 메인 페이지 - 슬로건 */
-.mainPage .sloganArea{padding-block: 300px; text-align: center;}
-.mainPage .sloganArea p{font-size: 65px; font-weight: 300; line-height: 68.5px;}
+.mainPage .sloganArea{text-align: center;}
+.mainPage .sloganArea p{font-weight: 300;}
 .mainPage .sloganArea p strong{display: block; font-weight: 700;}
 .mainPage .sloganArea p strong span{position: relative;}
 .mainPage .sloganArea p strong span::before{content: ''; position: absolute; left: 0; bottom: 0; width: 100%; height: 20px; background-color: #cdd8e5; z-index: -1;}
-.mainPage .sloganArea img{width: 292px; margin-top: 80px;}
+.mainPage .sloganArea img{width: 292px;}
 /* 메인 페이지 - 납품 */
 .mainPage .deliveryArea{display: flex;}
 .mainPage .deliveryArea li{flex: 1; aspect-ratio: 1; background-image: url('../images/bg-main.png'); background-position: 100% calc(100% * var(--styleIdx)); background-size: cover; padding: 100px 60px; box-sizing: border-box; display: flex; flex-direction: column; justify-content: flex-end;}
