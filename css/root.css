@@ -7,5 +7,16 @@
     --colorBG: #F1F1F1;
     --colorLine: #DEDEDE;
     --maxWidth: 1920px;
-    --spacing: 80px;
+}
+
+@media screen and (width < 768px) {
+    :root{
+        --spacing: 40px;
+    }
+}
+
+@media screen and (768px < width) {
+    :root{
+        --spacing: 80px;
+    }
 }

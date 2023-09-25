@@ -10,6 +10,9 @@ $(document).ready(function(){
 
   // tab event
   $('.tabBtn').length && tabEvent();
+
+  // 모바일 메뉴 이벤트
+  mobileMenuEvent();
 })
 
   // css index
@@ -31,5 +34,23 @@ function tabEvent(){
     const thisParent = $(this).parent();
     thisParent.addClass('active').siblings().removeClass('active');
     $('.tabContent > li').eq(thisParent.index()).addClass('active').siblings().removeClass('active');
+  })
+}
+
+function mobileMenuEvent(){
+  $('header > button').click(function(){
+    $('header').toggleClass('active')
+  });
+
+  $('header nav > ul > li > button').click(function(){
+    $(this).toggleClass('active');
+  })
+
+  $(window).scroll(function(){
+    if($(window).scrollTop() > 0){
+      $('header').addClass('scroll')
+    }else{
+      $('header').removeClass('scroll')
+    }
   })
 }
