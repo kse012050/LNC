@@ -1,8 +1,17 @@
+br.mobile{display: none;}
+
 /* 메인 페이지 */
 /* 메인 페이지 - 슬라이더 */
 .mainPage .topBox .swiper .swiper-slide{height: 647px; font-size: 54px; line-height: 69px;}
 .mainPage .topBox .swiper-pagination{bottom: 204px;}
 .mainPage .topBox .arrow{bottom: 20px;}
 /* 메인 페이지 - 슬로건 */
-.mainPage .sloganArea img{margin-top: 70px;}
+.mainPage .sloganArea img{width: 292px; margin-top: 70px;}
 /* 메인 페이지 - 납품 */
+.mainPage .deliveryArea{display: flex;}
+/* 메인 페이지 - 사명 */
+.mainPage .missionArea div{max-width: 480px;}
+.mainPage .missionArea div h2{margin-bottom: 30px;}
+.mainPage .missionArea div p{font-size: 20px; line-height: 28px; margin-bottom: 50px;}
+.mainPage .missionArea ul{flex: 1; display: flex;}
+.mainPage .missionArea ul li{flex: 1;}

@@ -4,3 +4,12 @@
 .mainPage .sloganArea{padding-block: 200px;}
 .mainPage .sloganArea p{font-size: 50px; line-height: 62px;}
 /* 메인 페이지 - 납품 */
+.mainPage .deliveryArea li{padding: 40px;}
+.mainPage .deliveryArea li strong{font-size: 32px; line-height: 42px;}
+.mainPage .deliveryArea li p{font-size: 18px; line-height: 24.5px; margin-top: 20px;}
+/* 메인 페이지 - 사명 */
+.mainPage .missionArea{padding-block: 120px 160px;}
+.mainPage .missionArea div h2{font-size: 46px; line-height: 55px;}
+.mainPage .missionArea ul{gap: 28px;}
+.mainPage .missionArea ul li{aspect-ratio: 355 / 500; padding: 30px 40px; font-size: 26px; line-height: 31px;}
+.mainPage .missionArea ul li::before{--width: 186px; margin-bottom: 123px;}

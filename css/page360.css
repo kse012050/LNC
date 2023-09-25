@@ -1,10 +1,21 @@
 /* 메인 페이지 */
 /* 메인 페이지 - 슬라이더 */
-.mainPage .topBox .swiper .swiper-slide{height: 647px; font-size: 42px; line-height: 52.6666px;}
+.mainPage .topBox .swiper .swiper-slide{height: 647px; font-size: 42px; line-height: 52.6666px; text-align: center;}
 .mainPage .topBox .swiper-pagination{bottom: 188px;}
 .mainPage .topBox .arrow{bottom: 30px;}
 /* 메인 페이지 - 슬로건 */
-.mainPage .sloganArea{padding-block: 200px;}
-.mainPage .sloganArea p{font-size: 50px; line-height: 62px;}
-.mainPage .sloganArea img{margin-top: 70px;}
+.mainPage .sloganArea{padding-block: 172px;}
+.mainPage .sloganArea p{font-size: 34px; line-height: 46px;}
+.mainPage .sloganArea img{max-width: 222px; margin-top: 60px;}
 /* 메인 페이지 - 납품 */
+.mainPage .deliveryArea li{padding: 40px 30px;}
+.mainPage .deliveryArea li strong{font-size: 20px; line-height: 27px;}
+.mainPage .deliveryArea li p{font-size: 15px; line-height: 20px; margin-top: 20px;}
+/* 메인 페이지 - 사명 */
+.mainPage .missionArea{padding-block: 60px;}
+.mainPage .missionArea div{margin-bottom: 50px;}
+.mainPage .missionArea div h2{font-size: 30px; line-height: 36px; margin-bottom: 20px;}
+.mainPage .missionArea div p{font-size: 15px; line-height: 21px;}
+.mainPage .missionArea ul li{max-width: 320px; aspect-ratio: 320 / 300; padding: 30px; font-size: 22px; line-height: 26px;}
+.mainPage .missionArea ul li:not(:last-child){margin-bottom: 20px;}
+.mainPage .missionArea ul li::before{--width: 150px; margin-bottom: 34px;}

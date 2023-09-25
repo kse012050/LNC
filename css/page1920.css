@@ -8,3 +8,13 @@
 .mainPage .sloganArea p{font-size: 65px; line-height: 68.5px;}
 .mainPage .sloganArea img{margin-top: 80px;}
 /* 메인 페이지 - 납품 */
+.mainPage .deliveryArea li{padding: 100px 60px;}
+.mainPage .deliveryArea li strong{font-size: 36px; line-height: 48.5px;}
+.mainPage .deliveryArea li p{font-size: 18px; line-height: 24.5px; margin-top: 40px;}
+/* 메인 페이지 - 사명 */
+.mainPage .missionArea{display: flex; align-items: center; gap: 80px; padding-block: 140px 180px;}
+.mainPage .missionArea div{display: flex; flex-direction: column; justify-content: center;}
+.mainPage .missionArea div h2{font-size: 50px; line-height: 60px;}
+.mainPage .missionArea ul{gap: 30px;}
+.mainPage .missionArea ul li{aspect-ratio: 380 / 560; padding: 50px 40px; font-size: 30px; line-height: 36px;}
+.mainPage .missionArea ul li::before{--width: 200px; margin-bottom: 106px;}

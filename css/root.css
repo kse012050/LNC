@@ -11,12 +11,24 @@
 
 @media screen and (width < 768px) {
     :root{
+        --spacing: 20px;
+    }
+}
+@media screen and (768px < width) and (width < 1024px) {
+    :root{
         --spacing: 40px;
     }
 }
 
-@media screen and (768px < width) {
+@media screen and (1024px < width) {
     :root{
         --spacing: 80px;
+        --maxWidth: 1280px;
+    }
+}
+
+@media screen and (1600px < width) {
+    :root{
+        --maxWidth: 1920px;
     }
 }
