@@ -1,3 +1,8 @@
+
+/* 서브 페이지 상단 */
+.subPage .topBox{height: 360px;}
+.subPage .topBox ul li a{line-height: 60px;}
+
 /* 푸터 */
 footer img{margin-bottom: 30px;}
 footer address{row-gap: 10px;}

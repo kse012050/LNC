@@ -1,3 +1,10 @@
+
+/* 서브 페이지 상단 */
+.subPage .topBox h2{font-size: 40px; line-height: 48px;}
+.subPage .topBox ul{overflow: auto;}
+.subPage .topBox ul li{min-width: 108px;}
+.subPage .topBox ul li a{font-size: 15px;}
+
 /* 해더 */
 header{position: fixed; display: flex; align-items: center; justify-content: space-between; padding: 11px 15px; box-sizing: border-box;}
 header h1 a{width: 56px; aspect-ratio: 56 / 34;}

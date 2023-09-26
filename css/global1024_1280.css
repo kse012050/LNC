@@ -1,3 +1,6 @@
+/* 서브 페이지 상단 */
+.subPage .topBox h2{font-size: 46px; line-height: 55px;}
+
 /* 푸터 */
 footer{padding-block: 50px 60px;}
 footer img{width: 256px;}
