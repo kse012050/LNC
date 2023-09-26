@@ -37,3 +37,9 @@
 .companyPage .historyPage > div{row-gap: 80px;}
 .companyPage .historyPage > div ol li{line-height: 23.5px;}
 .companyPage .historyPage > div ol li:not(:last-child){padding-bottom: 24px;}
+/* 기업 소개 - 기업 조직도 */
+/* .companyPage .chartPage ul{justify-content: space-between;} */
+/* .companyPage .chartPage ul{gap: 67px;} */
+.companyPage .chartPage ul li{width: 270px;}
+.companyPage .chartPage ul li::before{margin-bottom: 21px;}
+.companyPage .chartPage ul li p{font-size: 18px; line-height: 24.5px; min-height: 49px;}

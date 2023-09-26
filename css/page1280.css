@@ -33,3 +33,9 @@
 /* 기업 소개 - 회사 연혁 */
 .companyPage .historyPage > div{row-gap: 100px;}
 .companyPage .historyPage > div ol li{line-height: 21px;}
+/* 기업 소개 - 기업 조직도 */
+/* .companyPage .chartPage ul{justify-content: space-between;} */
+/* .companyPage .chartPage ul{gap: 110px;} */
+.companyPage .chartPage ul li{width: 300px;}
+.companyPage .chartPage ul li::before{margin-bottom: 25px;}
+.companyPage .chartPage ul li p{font-size: 20px; line-height: 27px; min-height: 54px;}

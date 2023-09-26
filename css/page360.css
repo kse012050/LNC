@@ -52,3 +52,9 @@
 .companyPage .historyPage > div ol li{font-size: 15px; line-height: 20px; padding-inline: 22px;}
 .companyPage .historyPage > div ol li:not(:last-child){padding-bottom: 18px;}
 .companyPage .historyPage > div ol li span{margin-top: 4px;}
+/* 기업 소개 - 기업 조직도 */
+.companyPage .chartPage ul li{width: 100%; max-width: 260px; margin-inline: auto;}
+.companyPage .chartPage ul li:not(:last-child){margin-bottom: 50px;}
+.companyPage .chartPage ul li::before{--width: 80px; margin-bottom: 27px;}
+.companyPage .chartPage ul li:not(:last-child)::after{width: 1px; height: 100%; top: 100%; left: 50%; transform: translateX(-50%);}
+.companyPage .chartPage ul li p{font-size: 18px; line-height: 22.5px; min-height: 45px;}

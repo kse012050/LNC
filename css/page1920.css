@@ -49,3 +49,8 @@
 .companyPage .historyPage > div ol{width: 25%;}
 .companyPage .historyPage > div ol::before{font-size: 36px; line-height: 50px; margin-bottom: 60px;}
 .companyPage .historyPage > div ol li{font-size: 20px; line-height: 24px;}
+/* 기업 소개 - 기업 조직도 */
+.companyPage .chartPage ul{/* gap: 120px; */ max-width: 1200px; margin-inline: auto;}
+.companyPage .chartPage ul li{width: 320px;}
+.companyPage .chartPage ul li::before{margin-bottom: 27px;}
+.companyPage .chartPage ul li p{font-size: 24px; line-height: 31.5px; min-height: 63px;}

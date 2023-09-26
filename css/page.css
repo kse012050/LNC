@@ -60,11 +60,10 @@
 .companyPage .historyPage > div ol li:not(:last-child)::after{content: ''; position: absolute; left: 3.5px; top: 12px; width: 1px; height: 100%; background-color: var(--colorLine);}
 .companyPage .historyPage > div ol li span{display: block;}
 /* 기업 소개 - 기업 조직도 */
-.companyPage .chartPage ul{display: flex; justify-content: center; gap: 120px;}
-.companyPage .chartPage ul li{width: 320px; aspect-ratio: 1; background-color: var(--colorBG); border-radius: 100%; display: flex; flex-direction: column; justify-content: flex-end; align-items: center; padding: 50px; box-sizing: border-box; position: relative;}
-.companyPage .chartPage ul li::before{content: ''; --width: 90px; width: var(--width); aspect-ratio: 1; background: url('../images/icon-organizationChart.png') no-repeat center top calc(var(--width) * var(--styleIdx) * -1) / 100%; margin-bottom: 27px;}
-.companyPage .chartPage ul li:not(:last-child)::after{content: ''; position: absolute; left: calc(100% + 60px); top: 50%; transform: translate(-50%); width: 100%; height: 1px; background-color: var(--colorBG);}
-.companyPage .chartPage ul li p{font-size: 24px; line-height: 31.5px; min-height: 63px; text-align: center; display: flex; justify-content: center; align-items: center;}
+.companyPage .chartPage ul li{aspect-ratio: 1; background-color: var(--colorBG); border-radius: 100%; display: flex; flex-direction: column; justify-content: flex-end; align-items: center; box-sizing: border-box; position: relative; padding: 50px;}
+.companyPage .chartPage ul li::before{content: ''; width: var(--width); aspect-ratio: 1; background: url('../images/icon-organizationChart.png') no-repeat center top calc( 100% / var(--totalIdx) * var(--styleIdx)) / 100%;}
+.companyPage .chartPage ul li:not(:last-child)::after{content: ''; position: absolute; background-color: var(--colorBG);}
+.companyPage .chartPage ul li p{text-align: center; display: flex; justify-content: center; align-items: center;}
 
 
 /* 산업 안내 */
