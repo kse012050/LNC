@@ -39,3 +39,5 @@
 /* 산업 안내 */
 /* 산업 안내 - 주요 산업 */
 .businessPage .majorPage .facilityArea div p{font-size: 20px; line-height: 24px;}
+/* 산업 안내 - 파트너 */
+.businessPage .partnerPage > div div a{margin-top: 80px;}

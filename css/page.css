@@ -80,14 +80,13 @@
 .businessPage .majorPage .facilityArea div ul li{border: 1px solid var(--colorLine); line-height: 0;}
 .businessPage .majorPage .facilityArea div ul li:nth-last-child(n + 3){margin-bottom: 30px;}
 .businessPage .majorPage .facilityArea div ul li img{width: 100%;}
-/* 산업 안내 */
-.businessPage .partnerPage > div ul{display: flex; flex-wrap: wrap;}
-.businessPage .partnerPage > div ul li{width: calc((100% - 60px) / 3);}
-.businessPage .partnerPage > div ul li:not(:nth-child(3n)){margin-right: 30px;}
-.businessPage .partnerPage > div ul li:nth-child(n + 4){margin-top: 80px;}
-.businessPage .partnerPage > div ul li::before{content: ''; display: block; width: 100%; aspect-ratio: 420 / 260; background: url('../images/img-partners.png') no-repeat left top calc(20% * var(--styleIdx)) / 100%; border: 1px solid var(--colorLine); margin-bottom: 30px;}
-.businessPage .partnerPage > div ul li p{display: flex; flex-wrap: wrap; justify-content: center; font-size: 24px; font-weight: 300; line-height: 38.5px; padding-inline: 40px;}
-.businessPage .partnerPage > div ul li p b{font-weight: 700;}
+/* 산업 안내 - 파트너 */
+.businessPage .partnerPage > div div{text-align: center;}
+.businessPage .partnerPage > div div ul li::before{content: ''; display: block; width: 100%; aspect-ratio: 420 / 260; background: url('../images/img-partners.png') no-repeat left top calc(20% * var(--styleIdx)) / 100%; border: 1px solid var(--colorLine);}
+.businessPage .partnerPage > div div ul li p{display: flex; flex-wrap: wrap; justify-content: center; font-weight: 300;}
+.businessPage .partnerPage > div div ul li p b{font-weight: 700;}
+.businessPage .partnerPage > div div ul li p b.block{width: 100%;}
+.businessPage .partnerPage > div div a{color: white; background-color: var(--colorPoint2); border-radius: 6px;}
 
 
 /* 장애인 표준 사업장 인증 */

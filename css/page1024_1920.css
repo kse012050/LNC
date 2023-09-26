@@ -1,5 +1,3 @@
-br.mobile{display: none;}
-
 /* 메인 페이지 */
 /* 메인 페이지 - 슬라이더 */
 /* 메인 페이지 - 슬로건 */
@@ -43,3 +41,5 @@ br.mobile{display: none;}
 .businessPage .majorPage .progressBox li strong::before{padding: 8px 17px;}
 .businessPage .majorPage .facilityArea div p{margin-bottom: 30px;}
 .businessPage .majorPage .facilityArea div ul{display: flex; flex-wrap: wrap; justify-content: space-between;}
+/* 산업 안내 - 파트너 */
+.businessPage .partnerPage > div div ul{display: flex; flex-wrap: wrap;}

@@ -52,3 +52,9 @@
 .businessPage .majorPage .progressBox li strong::before{font-size: 15px;}
 .businessPage .majorPage .facilityArea div ul:not(:last-of-type){margin-bottom: 80px;}
 .businessPage .majorPage .facilityArea div ul li{width: calc((100% - 26px) / 2);}
+/* 산업 안내 - 파트너 */
+.businessPage .partnerPage > div div ul li{width: calc((100% - 52px) / 3);}
+.businessPage .partnerPage > div div ul li:not(:nth-child(3n)){margin-right: 26px;}
+.businessPage .partnerPage > div div ul li:nth-child(n + 4){margin-top: 70px;}
+.businessPage .partnerPage > div div ul li::before{margin-bottom: 25px;}
+.businessPage .partnerPage > div div ul li p{font-size: 20px; line-height: 28.5px;}

@@ -1,3 +1,5 @@
+br.mobile{display: none;}
+
 /* 해더 */
 header{--topHeight: 100px; position: absolute;}
 header h1{position: absolute; left: 30px; top: 25px;}

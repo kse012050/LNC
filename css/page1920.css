@@ -72,3 +72,10 @@
 .businessPage .majorPage .facilityArea div p{font-size: 24px; line-height: 29px;}
 .businessPage .majorPage .facilityArea div ul:not(:last-of-type){margin-bottom: 60px;}
 .businessPage .majorPage .facilityArea div ul li{width: calc((100% - 30px) / 2);}
+/* 산업 안내 - 파트너 */
+.businessPage .partnerPage > div div ul li{width: calc((100% - 60px) / 3);}
+.businessPage .partnerPage > div div ul li:not(:nth-child(3n)){margin-right: 30px;}
+.businessPage .partnerPage > div div ul li:nth-child(n + 4){margin-top: 80px;}
+.businessPage .partnerPage > div div ul li::before{margin-bottom: 30px;}
+.businessPage .partnerPage > div div ul li p{font-size: 24px; line-height: 38.5px;}
+.businessPage .partnerPage > div div a{margin-top: 120px;}

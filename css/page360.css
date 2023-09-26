@@ -75,3 +75,8 @@
 .businessPage .majorPage .facilityArea div p{font-size: 18px; line-height: 21px; margin-bottom: 20px;}
 .businessPage .majorPage .facilityArea div ul:not(:last-of-type){margin-bottom: 40px;}
 .businessPage .majorPage .facilityArea div ul li:not(:last-child){margin-bottom: 20px;}
+/* 산업 안내 - 파트너 */
+.businessPage .partnerPage > div div ul li:not(:last-child){margin-bottom: 40px;}
+.businessPage .partnerPage > div div ul li::before{margin-bottom: 20px;}
+.businessPage .partnerPage > div div ul li p{font-size: 18px; line-height: 23.5px;}
+.businessPage .partnerPage > div div a{font-size: 15px; width: 100%; line-height: 50px; margin-top: 60PX;}
