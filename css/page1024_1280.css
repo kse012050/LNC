@@ -8,3 +8,14 @@
 /* 메인 페이지 - 납품 */
 /* 메인 페이지 - 사명 */
 .mainPage .missionArea div{margin-bottom: 60px;}
+
+
+/* 서브 페이지 공통 */
+.subPage > [class*="Page"]{padding-block: 160px 180px;}
+
+
+/* 기업 소개 */
+/* 기업 소개 - 회사소개 */
+.companyPage .introductPage img{width: 160px; margin-bottom: 60px;}
+.companyPage .introductPage h3{font-size: 32px; line-height: 38px;}
+.companyPage .introductPage p{font-size: 18px; line-height: 27px;}

@@ -17,3 +17,9 @@ br.mobile{display: none;}
 .mainPage .missionArea ul li{flex: 1;}
 /* 메인 페이지 - 사명 */
 .mainPage .featuresArea ul{display: flex; text-align: center;}
+
+/* 서브 페이지 공통 */
+
+/* 기업 소개 */
+/* 기업 소개 - 회사소개 */
+.companyPage .introductPage p{margin-top: 30px;}

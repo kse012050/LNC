@@ -35,8 +35,8 @@
 .mainPage .featuresArea ul li p{font-weight: 300;}
 .mainPage .featuresArea ul li a{display: block; color: #bbb; text-decoration: underline;}
 
-
-.subPage > [class*="Page"]{padding-block: 140px 200px;}
+/* 서브 페이지 공통 */
+/* .subPage > [class*="Page"]{padding-block: 140px 200px;} */
 .subPage > [class*="Page"] h3:first-child{font-size: 40px; line-height: 48px;}
 .subPage > [class*="Page"] h3:first-child:has(+ div, + ul){margin-bottom: 120px;}
 .subPage > [class*="Page"] > div{display: flex; justify-content: space-between;}
@@ -45,10 +45,8 @@
 
 /* 기업 소개 */
 /* 기업 소개 - 회사소개 */
-.companyPage .introductPage{text-align: center; padding-bottom: 240px;}
-.companyPage .introductPage img{width: 180px; margin-bottom: 80px;}
-.companyPage .introductPage h3{font-size: 36px; line-height: 43px;}
-.companyPage .introductPage p{font-size: 20px; font-weight: 300; line-height: 29.34px; margin-top: 30px;}
+.companyPage .introductPage{text-align: center; padding-inline: var(--spacing);}
+.companyPage .introductPage p{font-weight: 300;}
 /* 기업 소개 - 대표 인사말, 회사 연혁, 기업 조직도 공통 */
 /* .companyPage :is(.greetPage, .historyPage, .chartPage){padding-block: 140px 200px;}
 .companyPage :is(.greetPage, .historyPage, .chartPage) h3{font-size: 40px; line-height: 48px; margin-bottom: 120px;} */
