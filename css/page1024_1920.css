@@ -19,7 +19,13 @@ br.mobile{display: none;}
 .mainPage .featuresArea ul{display: flex; text-align: center;}
 
 /* 서브 페이지 공통 */
+.subPage > [class*="Page"] > div{display: flex; justify-content: space-between;}
 
 /* 기업 소개 */
 /* 기업 소개 - 회사소개 */
 .companyPage .introductPage p{margin-top: 30px;}
+/* 기업 소개 - 대표 인사말 */
+.companyPage .greetPage > div div{display: flex; flex-direction: column;}
+.companyPage .greetPage > div div strong{font-size: 24px; line-height: 31.5px; margin-bottom: 40px;}
+.companyPage .greetPage > div div p{font-size: 18px; --lineHeight: 29.5px;}
+.companyPage .greetPage > div img{object-fit: cover;}

@@ -32,6 +32,8 @@
 
 /* 서브 페이지 공통 */
 .subPage > [class*="Page"]{padding-block: 60px 100px;}
+.subPage > [class*="Page"] h3:first-child{font-size: 30px; line-height: 36px;}
+.subPage > [class*="Page"] h3:first-child:has(+ div, + ul){margin-bottom: 40px;}
 
 
 /* 기업 소개 */
@@ -39,3 +41,8 @@
 .companyPage .introductPage img{width: 120px; margin-bottom: 40px;}
 .companyPage .introductPage h3{font-size: 24px; line-height: 29px;}
 .companyPage .introductPage p{font-size: 15px; line-height: 21px; margin-top: 20px;}
+/* 기업 소개 - 대표 인사말 */
+.companyPage .greetPage > div div{margin-bottom: 40px;}
+.companyPage .greetPage > div div strong{display: block; font-size: 18px; line-height: 22.5px; margin-bottom: 30px;}
+.companyPage .greetPage > div div p{font-size: 15px; --lineHeight: 21.8333px;}
+.companyPage .greetPage > div img{width: 100%;}
