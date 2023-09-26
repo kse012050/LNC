@@ -1,0 +1,11 @@
+/* 메인 페이지 */
+/* 메인 페이지 - 슬라이더 */
+/* 메인 페이지 - 슬로건 */
+/* 메인 페이지 - 납품 */
+/* 메인 페이지 - 사명 */
+.mainPage .featuresArea h2{margin-bottom: 60px;}
+.mainPage .featuresArea ul{gap: 30px;}
+.mainPage .featuresArea ul li{padding: 60px;}
+.mainPage .featuresArea ul li::before{width: 140px; margin: 0 auto 40px;}
+.mainPage .featuresArea ul li p{margin-top: 15px;}
+.mainPage .featuresArea ul li a{margin-top: 40px;}

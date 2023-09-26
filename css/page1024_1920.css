@@ -15,3 +15,5 @@ br.mobile{display: none;}
 .mainPage .missionArea div p{font-size: 20px; line-height: 28px; margin-bottom: 50px;}
 .mainPage .missionArea ul{flex: 1; display: flex;}
 .mainPage .missionArea ul li{flex: 1;}
+/* 메인 페이지 - 사명 */
+.mainPage .featuresArea ul{display: flex; text-align: center;}

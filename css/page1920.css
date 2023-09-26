@@ -18,3 +18,9 @@
 .mainPage .missionArea ul{gap: 30px;}
 .mainPage .missionArea ul li{aspect-ratio: 380 / 560; padding: 50px 40px; font-size: 30px; line-height: 36px;}
 .mainPage .missionArea ul li::before{--width: 200px; margin-bottom: 106px;}
+/* 메인 페이지 - 특징 */
+.mainPage .featuresArea{padding-block: 136px 180px;}
+.mainPage .featuresArea h2{font-size: 50px; line-height: 60px;}
+.mainPage .featuresArea ul li strong{font-size: 30px; line-height: 36px;}
+.mainPage .featuresArea ul li p{font-size: 20px; line-height: 24px;}
+.mainPage .featuresArea ul li a{font-size: 18px; line-height: 21px;}

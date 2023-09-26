@@ -19,3 +19,11 @@ header nav > ul > li > :is(button, a).active + ul{display: block;}
 header nav > ul > li ul li a{font-size: 16px; line-height: 19px; padding-block: 10px;}
 header nav > ul > li ul li.active a{text-decoration: underline;}
 header.active > button{background-position-y: calc(var(--width) * -1);}
+
+/* 푸터 */
+footer{padding-block: 60px 80px;}
+footer img{width: 174px;}
+footer address{font-size: 12px; line-height: 14px;}
+footer address > *:is(:nth-child(1), :nth-child(6)):after{content: ''; width: 2px; height: 0.9375em; background-color: rgba(255, 255, 255, 0.15); margin-inline: 9px;}
+footer address > *:nth-child(n + 3):nth-child(-n + 5){width: 100%;}
+footer a{display: block; font-size: 13px; line-height: 40px; margin-top: 40px;}

@@ -20,3 +20,10 @@ header nav > ul:hover > li:hover{position: relative;}
 header nav > ul:hover > li:hover::before{content: ''; position: absolute; left: 0; top: var(--topHeight); width: 100%; height: 1px; background-color: var(--colorPoint1);}
 header nav > ul:hover > li ul{display: block;}
 header nav > ul:hover > li ul li a:hover{display: block; color: var(--colorPoint1);}
+
+/* 푸터 */
+footer{position: relative;}
+footer address{max-width: 680px;}
+footer address > *:is(:nth-child(1), :nth-child(2), :nth-child(5), :nth-child(6)):after{content: ''; width: 2px; height: 0.9375em; background-color: rgba(255, 255, 255, 0.15); margin-inline: 14px;}
+footer address > *:nth-child(4){width: 100%;}
+footer a{position: absolute; right: 0; line-height: 60px;}

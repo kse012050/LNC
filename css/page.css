@@ -29,14 +29,11 @@
 .mainPage .missionArea ul li{background-color: var(--colorPoint1); border-radius: 20px; display: flex; flex-direction: column; justify-content: flex-end; color: white; box-sizing: border-box;}
 .mainPage .missionArea ul li::before{content: ''; align-self: center; width: var(--width); aspect-ratio: 1; background: url('../images/icon-main.png') no-repeat center top calc(var(--width) * var(--styleIdx) * -1) / 100%;}
 /* 메인 페이지 - 특징 */
-.mainPage .featuresArea{padding-block: 136px 180px; --BGColor: var(--colorBG);}
-.mainPage .featuresArea h2{font-size: 50px; line-height: 60px; margin-bottom: 60px;}
-.mainPage .featuresArea ul{display: flex; gap: 30px; text-align: center;}
-.mainPage .featuresArea ul li{flex: 1; padding: 60px; background-color: white; border-radius: 20px;}
-.mainPage .featuresArea ul li::before{content: ''; display: block; width: 140px; aspect-ratio: 1; background-image: url('../images/icon-characteristic.png'); background-position: center; background-size: cover; margin: 0 auto 40px;}
-.mainPage .featuresArea ul li strong{font-size: 30px; line-height: 36px;}
-.mainPage .featuresArea ul li p{font-size: 20px; font-weight: 300; line-height: 24px; margin-top: 15px;}
-.mainPage .featuresArea ul li a{display: block; font-size: 18px; color: #bbb; text-decoration: underline; margin-top: 40px;}
+.mainPage .featuresArea{--BGColor: var(--colorBG);}
+.mainPage .featuresArea ul li{flex: 1; background-color: white; border-radius: 20px;}
+.mainPage .featuresArea ul li::before{content: ''; display: block; aspect-ratio: 1; background-image: url('../images/icon-characteristic.png'); background-position: center; background-size: cover;}
+.mainPage .featuresArea ul li p{font-weight: 300;}
+.mainPage .featuresArea ul li a{display: block; color: #bbb; text-decoration: underline;}
 
 
 .subPage > [class*="Page"]{padding-block: 140px 200px;}

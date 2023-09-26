@@ -28,12 +28,9 @@ header h1 a{background-image: url('../images/logo-w.png'); background-position: 
 
 
 /* 푸터 */
-footer{padding-block: 60px var(--spacing); --BGColor: var(--colorPoint1); position: relative;}
-footer img{width: 290px; margin-bottom: 40px;}
-footer address{max-width: 680px; display: flex; flex-wrap: wrap; font-size: 16px; color: rgba(255, 255, 255, 0.3); line-height: 19px; row-gap: 12px;}
+footer{--BGColor: var(--colorPoint1);}
+footer address{display: flex; flex-wrap: wrap; color: rgba(255, 255, 255, 0.3);}
 footer address > *{display: flex; align-items: center;}
-footer address > *:is(:nth-child(1), :nth-child(2), :nth-child(5), :nth-child(6)):after{content: ''; width: 2px; height: 0.9375em; background-color: rgba(255, 255, 255, 0.15); margin-inline: 14px;}
-footer address > *:nth-child(4){width: 100%;}
 footer address dl dt{display: flex; align-items: center;}
 footer address dl dt::after{content: ':'; margin-inline: 0.5em;}
-footer a{position: absolute; right: 0; top: 60px; width: 230px; font-size: 18px; line-height: 60px; color: white; text-align: center; border: 1px solid white; border-radius: 6px;}
+footer a{color: white; text-align: center; border: 1px solid white; border-radius: 6px;}

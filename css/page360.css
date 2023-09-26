@@ -16,6 +16,15 @@
 .mainPage .missionArea div{margin-bottom: 50px;}
 .mainPage .missionArea div h2{font-size: 30px; line-height: 36px; margin-bottom: 20px;}
 .mainPage .missionArea div p{font-size: 15px; line-height: 21px;}
-.mainPage .missionArea ul li{max-width: 320px; aspect-ratio: 320 / 300; padding: 30px; font-size: 22px; line-height: 26px;}
+.mainPage .missionArea ul li{height: 300px; padding: 30px; font-size: 22px; line-height: 26px;}
 .mainPage .missionArea ul li:not(:last-child){margin-bottom: 20px;}
 .mainPage .missionArea ul li::before{--width: 150px; margin-bottom: 34px;}
+/* 메인 페이지 - 특징 */
+.mainPage .featuresArea{padding-block: 60px;}
+.mainPage .featuresArea h2{font-size: 30px; line-height: 36px; margin-bottom: 50px;}
+.mainPage .featuresArea ul li{padding: 60px 30px; text-align: center;}
+.mainPage .featuresArea ul li:not(:last-child){margin-bottom: 20px;}
+.mainPage .featuresArea ul li::before{width: 140px; margin: 0 auto 40px;}
+.mainPage .featuresArea ul li strong{font-size: 22px; line-height: 26px;}
+.mainPage .featuresArea ul li p{font-size: 15px; line-height: 20px; margin-top: 20px;}
+.mainPage .featuresArea ul li a{font-size: 14px; line-height: 16px; margin-top: 30px;}
