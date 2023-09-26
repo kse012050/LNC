@@ -33,3 +33,7 @@
 /* 기업 소개 - 대표 인사말 */
 .companyPage .greetPage > div div{width: 47.8813%;}
 .companyPage .greetPage > div img{width: 47.8813%;}
+/* 기업 소개 - 회사 연혁 */
+.companyPage .historyPage > div{row-gap: 80px;}
+.companyPage .historyPage > div ol li{line-height: 23.5px;}
+.companyPage .historyPage > div ol li:not(:last-child){padding-bottom: 24px;}

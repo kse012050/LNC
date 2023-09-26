@@ -11,14 +11,19 @@
 
 
 /* 서브 페이지 공통 */
-.subPage > [class*="Page"]{padding-block: 160px 180px;}
+.subPage > [class*="Page"]{padding-block: 120px 180px;}
 .subPage > [class*="Page"] h3:first-child{font-size: 36px; line-height: 43px;}
 .subPage > [class*="Page"] h3:first-child:has(+ div, + ul){margin-bottom: 80px;}
 
 
 /* 기업 소개 */
 /* 기업 소개 - 회사소개 */
+.companyPage .introductPage{padding-top: 160px;}
 .companyPage .introductPage img{width: 160px; margin-bottom: 60px;}
 .companyPage .introductPage h3{font-size: 32px; line-height: 38px;}
 .companyPage .introductPage p{font-size: 18px; line-height: 27px;}
 /* 기업 소개 - 대표 인사말 */
+/* 기업 소개 - 회사 연혁 */
+.companyPage .historyPage > div ol{width: 33%;}
+.companyPage .historyPage > div ol::before{font-size: 32px; line-height: 38px; margin-bottom: 40px;}
+.companyPage .historyPage > div ol li{font-size: 18px;}

@@ -15,3 +15,5 @@
 /* 기업 소개 */
 /* 기업 소개 - 회사소개 */
 /* 기업 소개 - 대표 인사말 */
+/* 기업 소개 - 회사 연혁 */
+.companyPage .historyPage > div ol li:not(:last-child){padding-bottom: 30px;}

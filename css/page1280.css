@@ -30,3 +30,6 @@
 /* 기업 소개 - 대표 인사말 */
 .companyPage .greetPage > div div{width: 48.2142%;}
 .companyPage .greetPage > div img{width: 46.4285%;}
+/* 기업 소개 - 회사 연혁 */
+.companyPage .historyPage > div{row-gap: 100px;}
+.companyPage .historyPage > div ol li{line-height: 21px;}

@@ -44,3 +44,8 @@
 .companyPage .greetPage > div div p{font-size: 18px; line-height: 29.5px;}
 .companyPage .greetPage > div div p:not(:last-child){margin-bottom: 29.5px;}
 .companyPage .greetPage > div img{width: 50%;}
+/* 기업 소개 - 회사 연혁 */
+.companyPage .historyPage > div{row-gap: 160px;}
+.companyPage .historyPage > div ol{width: 25%;}
+.companyPage .historyPage > div ol::before{font-size: 36px; line-height: 50px; margin-bottom: 60px;}
+.companyPage .historyPage > div ol li{font-size: 20px; line-height: 24px;}

@@ -46,3 +46,9 @@
 .companyPage .greetPage > div div strong{display: block; font-size: 18px; line-height: 22.5px; margin-bottom: 30px;}
 .companyPage .greetPage > div div p{font-size: 15px; --lineHeight: 21.8333px;}
 .companyPage .greetPage > div img{width: 100%;}
+/* 기업 소개 - 회사 연혁 */
+.companyPage .historyPage > div ol::before{font-size: 24px; line-height: 29px; margin-bottom: 18px;}
+.companyPage .historyPage > div ol:not(:last-child){margin-bottom: 31px;}
+.companyPage .historyPage > div ol li{font-size: 15px; line-height: 20px; padding-inline: 22px;}
+.companyPage .historyPage > div ol li:not(:last-child){padding-bottom: 18px;}
+.companyPage .historyPage > div ol li span{margin-top: 4px;}
