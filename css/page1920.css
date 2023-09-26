@@ -30,6 +30,9 @@
 .subPage > [class*="Page"]{padding-block: 140px 200px;}
 .subPage > [class*="Page"] h3:first-child{font-size: 40px; line-height: 48px;}
 .subPage > [class*="Page"] h3:first-child:has(+ div, + ul){margin-bottom: 120px;}
+.subPage > [class*="Page"] > div{display: flex; justify-content: space-between;}
+.subPage > [class*="Page"] > div > mark{min-width: 255px; font-size: 28px; line-height: 34px;}
+.subPage > [class*="Page"] > div:not(:last-child){margin-bottom: 180px;}
 
 
 /* 기업 소개 */
@@ -54,3 +57,18 @@
 .companyPage .chartPage ul li{width: 320px;}
 .companyPage .chartPage ul li::before{margin-bottom: 27px;}
 .companyPage .chartPage ul li p{font-size: 24px; line-height: 31.5px; min-height: 63px;}
+
+
+/* 산업 안내 */
+:is(.businessPage, .disabledPage) [class*="Page"] > div > *:not(:first-child){width: 1320px;}
+/* 산업 안내 - 주요 산업 */
+.progressBox li{width: 19.6969%; height: 343px;}
+.progressBox li::before{--height: 90px; margin-bottom: 30px;}
+.progressBox li:not(:last-child):after{width: 50px; right: -93px;}
+.progressBox li strong{font-size: 24px; line-height: 29px; margin-bottom: 20px;}
+.progressBox li p{font-size: 20px; line-height: 27px;}
+.businessPage .majorPage .progressBox li{padding-block: 60px;}
+.businessPage .majorPage .progressBox li strong::before{font-size: 18px; padding: 8px 17px;}
+.businessPage .majorPage .facilityArea div p{font-size: 24px; line-height: 29px;}
+.businessPage .majorPage .facilityArea div ul:not(:last-of-type){margin-bottom: 60px;}
+.businessPage .majorPage .facilityArea div ul li{width: calc((100% - 30px) / 2);}

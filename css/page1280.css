@@ -22,7 +22,7 @@
 
 
 /* 서브 페이지 공통 */
-
+.subPage > [class*="Page"] > div > mark:has(+ ol){margin-bottom: 80px;}
 
 
 /* 기업 소개 */
@@ -39,3 +39,16 @@
 .companyPage .chartPage ul li{width: 300px;}
 .companyPage .chartPage ul li::before{margin-bottom: 25px;}
 .companyPage .chartPage ul li p{font-size: 20px; line-height: 27px; min-height: 54px;}
+
+
+/* 산업 안내 */
+/* 산업 안내 - 주요 산업 */
+.progressBox li{width: 19.7321%; height: 291px;}
+.progressBox li::before{--height: 77px; margin-bottom: 25px;}
+.progressBox li:not(:last-child):after{width: 42px; right: -82px;}
+.progressBox li strong{font-size: 20px; line-height: 24px; margin-bottom: 18px;}
+.progressBox li p{font-size: 16px; line-height: 22.5px;}
+.businessPage .majorPage .progressBox li{padding-block: 50px 54px;}
+.businessPage .majorPage .progressBox li strong::before{font-size: 15px;}
+.businessPage .majorPage .facilityArea div ul:not(:last-of-type){margin-bottom: 80px;}
+.businessPage .majorPage .facilityArea div ul li{width: calc((100% - 26px) / 2);}
