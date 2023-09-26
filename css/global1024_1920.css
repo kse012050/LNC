@@ -7,7 +7,7 @@ header nav > ul{display: flex; justify-content: center; --linkSpacing: 20px; gap
 header nav > ul > li > :is(a, button){font-size: 18px; color: rgba(255, 255, 255, 0.5); line-height: var(--topHeight); padding-inline: var(--linkSpacing);}
 header nav > ul > li.active > :is(a, button){color: white;}
 .mainPage header nav > ul > li > :is(a, button){color: white;}
-header nav > ul > li ul{display: none; padding-block: 30px 50px;}
+header nav > ul > li ul{display: none; padding-block: 30px 50px; text-align: center;}
 header nav > ul > li ul li a{font-size: 16px; line-height: 39px; color: #bbb; padding-inline: var(--linkSpacing);}
 header nav > ul > li ul li.active a{color: var(--colorPoint1);}
 header > button{display: none;}

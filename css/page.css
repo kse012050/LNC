@@ -46,7 +46,7 @@
 /* 기업 소개 */
 /* 기업 소개 - 회사소개 */
 .companyPage .introductPage{text-align: center; padding-inline: var(--spacing);}
-.companyPage .introductPage p{font-weight: 300;}
+.companyPage .introductPage p{font-weight: 300; color: var(--colorFont2);}
 /* 기업 소개 - 대표 인사말 */
 .companyPage .greetPage > div div strong{font-weight: 400;}
 .companyPage .greetPage > div div strong b{display: block; font-weight: 700;}
@@ -102,7 +102,7 @@
 .disabledPage .workPlacePage .situationArea div table{width: 100%; font-size: 20px;}
 .disabledPage .workPlacePage .situationArea div table tr:first-child > *{width: 20%; text-align: center;}
 .disabledPage .workPlacePage .situationArea div table thead tr{border-width: 1px 0; border-style: solid; border-color: var(--colorFont1) transparent var(--colorLine);}
-.disabledPage .workPlacePage .situationArea div table thead tr th{background-color: var(--colorBG); padding-block: 25px;}
+.disabledPage .workPlacePage .situationArea div table thead tr th{background-color: #f8f8f8; padding-block: 25px;}
 .disabledPage .workPlacePage .situationArea div table tbody tr{border-bottom: 1px solid var(--colorLine);}
 .disabledPage .workPlacePage .situationArea div table tbody tr:first-child td{font-weight: 300; padding-block: 41px;}
 .disabledPage .workPlacePage .situationArea div table tbody tr.imgArea td{padding-block: 39.5px;}
@@ -125,7 +125,7 @@
 .disabledPage .workPlacePage .benefitsArea > div .tabBtn{display: flex; margin-bottom: 60px;}
 .disabledPage .workPlacePage .benefitsArea > div .tabBtn li{flex: 1;}
 .disabledPage .workPlacePage .benefitsArea > div .tabBtn li button{width: 100%; height: 70px; font-size: 20px; color: #bbb; border-width: 0; border-style: solid; border-color: var(--colorPoint2);}
-.disabledPage .workPlacePage .benefitsArea > div .tabBtn li:not(.active) button{border-bottom-width: 1px; background-color: var(--colorBG);}
+.disabledPage .workPlacePage .benefitsArea > div .tabBtn li:not(.active) button{border-bottom-width: 1px; background-color: #f8f8f8;}
 .disabledPage .workPlacePage .benefitsArea > div .tabBtn li.active button{border-width: 1px 1px 0;}
 .disabledPage .workPlacePage .benefitsArea > div .tabBtn li:is(:hover, .active) button{color: var(--colorPoint2);}
 .disabledPage .workPlacePage .benefitsArea > div .tabContent > li{display: none; padding-inline: 40px;}
