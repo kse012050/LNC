@@ -41,3 +41,18 @@
 .businessPage .majorPage .facilityArea div p{font-size: 20px; line-height: 24px;}
 /* 산업 안내 - 파트너 */
 .businessPage .partnerPage > div div a{margin-top: 80px;}
+
+
+/* 장애인 표준 사업장 인증 */
+/* 장애인 표준 사업장 인증 - 장애인 표준 사업장 인증 */
+.disabledPage .workPlacePage > img{max-width: 240px;}
+.disabledPage .workPlacePage > p{font-size: 20px; line-height: 27px; margin-bottom: 80px;}
+.disabledPage .workPlacePage .situationArea div table tbody tr:first-child td{padding-block: 31px;}
+.disabledPage .workPlacePage .situationArea div table tbody tr.imgArea td figure{gap: 70px;}
+.disabledPage .workPlacePage .situationArea div table tbody tr.imgArea td figure img{max-width: 263px;}
+.disabledPage .workPlacePage .benefitsArea > div > ol{--contentSpacing: 34px;}
+.disabledPage .workPlacePage .benefitsArea > div > ol li{font-size: 20px; padding-inline: 51px;}
+.disabledPage .workPlacePage .benefitsArea > div > ol li:not(:last-child){margin-bottom: 25px;}
+.disabledPage .workPlacePage .benefitsArea > div > ol li p{font-size: 16px; line-height: 19px; margin-top: 13px; padding-bottom: 6px;}
+.disabledPage .workPlacePage .benefitsArea > div > mark{font-size: 17px; line-height: 20px;}
+.disabledPage .workPlacePage .benefitsArea > div > small{font-size: 15px; line-height: 18px; margin-bottom: 80px;}

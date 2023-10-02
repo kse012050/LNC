@@ -3,12 +3,8 @@
 /* 메인 페이지 - 슬로건 */
 /* 메인 페이지 - 납품 */
 /* 메인 페이지 - 사명 */
-.mainPage .featuresArea h2{margin-bottom: 60px;}
-.mainPage .featuresArea ul{gap: 30px;}
-.mainPage .featuresArea ul li{padding: 60px;}
-.mainPage .featuresArea ul li::before{width: 140px; margin: 0 auto 40px;}
-.mainPage .featuresArea ul li p{margin-top: 15px;}
-.mainPage .featuresArea ul li a{margin-top: 40px;}
+/* 메인 페이지 - 특징 */
+
 
 /* 서브 페이지 공통 */
 
@@ -16,16 +12,16 @@
 /* 기업 소개 - 회사소개 */
 /* 기업 소개 - 대표 인사말 */
 /* 기업 소개 - 회사 연혁 */
-.companyPage .historyPage > div ol li:not(:last-child){padding-bottom: 30px;}
 /* 기업 소개 - 기업 조직도 */
+
 
 
 /* 산업 안내 */
 /* 산업 안내 - 주요 산업 */
 /* 산업 안내 - 파트너 */
-.businessPage .partnerPage > div div a{font-size: 20px; width: 282px; line-height: 70px;}
+
 
 
 /* 장애인 표준 사업장 인증 */
 /* 장애인 표준 사업장 인증 - 장애인 표준 사업장 인증 */
-.disabledPage .workPlacePage .benefitsArea > div > p{font-size: 18px; line-height: 23.5px;}
+.disabledPage .workPlacePage .benefitsArea > div > ol{margin-bottom: 40px;}

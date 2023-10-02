@@ -80,3 +80,41 @@
 .businessPage .partnerPage > div div ul li::before{margin-bottom: 20px;}
 .businessPage .partnerPage > div div ul li p{font-size: 18px; line-height: 23.5px;}
 .businessPage .partnerPage > div div a{font-size: 15px; width: 100%; line-height: 50px; margin-top: 60PX;}
+
+
+/* 장애인 표준 사업장 인증 */
+/* 장애인 표준 사업장 인증 - 장애인 표준 사업장 인증 */
+.disabledPage .workPlacePage h3{margin-bottom: 40px;}
+.disabledPage .workPlacePage > img{max-width: 216px; margin-bottom: 20px;}
+.disabledPage .workPlacePage > p{font-size: 18px; line-height: 24.3334px; margin-bottom: 60px;}
+.disabledPage .workPlacePage .situationArea div{overflow: auto;}
+.disabledPage .workPlacePage .situationArea div table{font-size: 15px; min-width: 670px;}
+.disabledPage .workPlacePage .situationArea div table tbody tr:first-child td{padding-block: 27px;}
+.disabledPage .workPlacePage .situationArea div table thead tr th{padding-block: 19px;}
+.disabledPage .workPlacePage .situationArea div table tbody tr.imgArea td{padding-block: 19.5px;}
+.disabledPage .workPlacePage .situationArea div table tbody tr.imgArea td figure{gap: 40px;}
+.disabledPage .workPlacePage .situationArea div table tbody tr.imgArea td figure img{max-width: 160px;}
+.disabledPage .workPlacePage .situationArea div table tbody tr.imgArea td figure figcaption b{font-size: 18px; line-height: 21px;}
+.disabledPage .workPlacePage .situationArea div table tbody tr.imgArea td figure figcaption dl{font-size: 15px; line-height: 21.2px;}
+.disabledPage .workPlacePage .benefitsArea > div > ol{--contentSpacing: 30px;}
+.disabledPage .workPlacePage .benefitsArea > div > ol li{font-size: 18px; padding-inline: 42px;}
+.disabledPage .workPlacePage .benefitsArea > div > ol li:not(:last-child){margin-bottom: 16px;}
+.disabledPage .workPlacePage .benefitsArea > div > ol li p{font-size: 15px; line-height: 21px; margin-top: 8px;}
+.disabledPage .workPlacePage .benefitsArea > div > mark{font-size: 15px; line-height: 18px; margin-bottom: 12px;}
+.disabledPage .workPlacePage .benefitsArea > div > p{font-size: 14px; line-height: 19.2px; margin-bottom: 12px;}
+.disabledPage .workPlacePage .benefitsArea > div > small{font-size: 14px; line-height: 18px; margin-bottom: 70px;}
+.disabledPage .workPlacePage .benefitsArea > div .tabBtn{margin-bottom: 40px;}
+.disabledPage .workPlacePage .benefitsArea > div .tabBtn li button{height: 50px; font-size: 15px;}
+.disabledPage .workPlacePage .benefitsArea > div .tabContent > li:first-child dl{font-size: 14px; line-height: 16px; margin-bottom: 20px;}
+.disabledPage .workPlacePage .benefitsArea > div .tabContent > li:first-child dl dd{margin-left: 15px;}
+.disabledPage .workPlacePage .benefitsArea > div .tabContent > li:first-child .progressBox li{padding-block: 30px 41px;}
+.disabledPage .workPlacePage .benefitsArea > div .tabContent > li:first-child a{margin-top: 40px;}
+.disabledPage .workPlacePage .benefitsArea > div .tabContent > li:nth-child(2) > p{font-size: 14px; line-height: 18px;}
+.disabledPage .workPlacePage .benefitsArea > div .tabContent > li:nth-child(2) > div{padding: 40px 30px;}
+.disabledPage .workPlacePage .benefitsArea > div .tabContent > li:nth-child(2) > div b{font-size: 15px; line-height: 18px;}
+.disabledPage .workPlacePage .benefitsArea > div .tabContent > li:nth-child(2) > div div{font-size: 18px;}
+.disabledPage .workPlacePage .benefitsArea > div .tabContent > li:nth-child(2) > div div::after{right: 16px;}
+.disabledPage .workPlacePage .benefitsArea > div .tabContent > li:nth-child(2) > div div input{height: 50px;}
+.disabledPage .workPlacePage .benefitsArea > div .tabContent > li:nth-child(2) > div mark{--MT: 80px; font-size: 24px; height: 123px; line-height: 30px; flex-direction: column; text-align: center;}
+.disabledPage .workPlacePage .benefitsArea > div .tabContent > li:nth-child(2) > div mark small{font-size: 18px;}
+.disabledPage .workPlacePage .benefitsArea > div .tabContent > li:nth-child(2) > div p{font-size: 14px; margin-top: 20px;}

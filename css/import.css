@@ -15,6 +15,8 @@
 @import url('page1024_1920.css') screen and (768px < width);
 @import url('page1280_1920.css') screen and (1024px < width);
 @import url('page1024_1280.css') screen and (768px < width) and (width <= 1600px);
+@import url('page360_1280.css') screen and (width <= 1600px);
+@import url('page360_1024.css') screen and (width <= 1024px);
 @import url('page1280.css') screen and (1024px < width) and (width <= 1600px);
 @import url('page1024.css') screen and (768px < width) and (width <= 1024px);
 @import url('page360.css') screen and (width <= 768px); 
