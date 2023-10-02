@@ -90,3 +90,7 @@
 .disabledPage .workPlacePage .benefitsArea > div .tabContent > li:nth-child(2) > div mark{--MT: 69px; font-size: 21px; height: 101px;}
 .disabledPage .workPlacePage .benefitsArea > div .tabContent > li:nth-child(2) > div mark small{font-size: 16px;}
 .disabledPage .workPlacePage .benefitsArea > div .tabContent > li:nth-child(2) > div p{font-size: 14px; margin-top: 18px;}
+/* 장애인 표준 사업장 인증 - 인증 자료 */
+.disabledPage .dataPage > div div{gap: 41px;}
+.disabledPage .dataPage > div div ul{gap: 14px;}
+.disabledPage .dataPage > div div ul li{width: calc((100% - 28px) / 3);}
