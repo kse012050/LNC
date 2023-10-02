@@ -124,3 +124,10 @@
 .disabledPage .dataPage > div div img{max-width: 33.3333%;}
 .disabledPage .dataPage > div div ul{gap: 20px;}
 .disabledPage .dataPage > div div ul li{width: calc((100% - 40px) / 3);}
+
+
+/* 협력&납품 */
+/* 협력&납품 - 문의 */
+.cooperationPage .inquiryPage p{font-size: 24px; line-height: 31.5px; margin-bottom: 120px;}
+.cooperationPage .inquiryPage fieldset ul li label{font-size: 20px;}
+.cooperationPage .inquiryPage fieldset ul li *:nth-child(2){font-size: 20px;}

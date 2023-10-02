@@ -139,20 +139,12 @@
 
 /* 협력&납품 */
 /* 협력&납품 - 문의 */
-.cooperationPage .inquiryPage{}
-.cooperationPage .inquiryPage h3{margin-bottom: 30px;}
-.cooperationPage .inquiryPage p{font-size: 24px; font-weight: 300; line-height: 31.5px; margin-bottom: 120px;}
-.cooperationPage .inquiryPage fieldset{}
-.cooperationPage .inquiryPage fieldset ul{padding-block: 39.5px; border-width: 1px 0; border-style: solid; border-color: var(--colorFont1) transparent var(--colorLine);}
-.cooperationPage .inquiryPage fieldset ul li{--height: 60px; display: flex; align-items: flex-start;}
-.cooperationPage .inquiryPage fieldset ul li:not(:has(textarea)){height: var(--height);}
-.cooperationPage .inquiryPage fieldset ul li:not(:last-child){margin-bottom: 20px;}
-.cooperationPage .inquiryPage fieldset ul li label{flex-shrink: 0; width: 240px; font-size: 20px; line-height: var(--height);}
-.cooperationPage .inquiryPage fieldset ul li *:nth-child(2){height: 100%; width: 100%; font-size: 20px; background-color: var(--colorBG); padding: 18px 20px; box-sizing: border-box; border: none; border-radius: 6px;}
+.cooperationPage .inquiryPage p{font-weight: 300;}
+.cooperationPage .inquiryPage fieldset ul{padding-block: 39px; border-width: 1px 0; border-style: solid; border-color: var(--colorFont1) transparent var(--colorLine);}
+.cooperationPage .inquiryPage fieldset ul li *:nth-child(2){height: 100%; width: 100%; background-color: var(--colorBG); box-sizing: border-box; border: none; border-radius: 6px;}
 /* .cooperationPage .inquiryPage fieldset ul li *:nth-child(2)::placeholder{color: red;} */
 .cooperationPage .inquiryPage fieldset ul li *:nth-child(2)::placeholder, select{color: var(--colorFont3); font-weight: 300;}
-.cooperationPage .inquiryPage fieldset ul li select{max-width: 640px; background: url('../images/btn-arrow-down.png') no-repeat right 20px center / 28px;}
+.cooperationPage .inquiryPage fieldset ul li select{background: url('../images/btn-arrow-down.png') no-repeat;}
 .cooperationPage .inquiryPage fieldset ul li select.active{color: var(--colorFont1);}
-.cooperationPage .inquiryPage fieldset ul li textarea{min-height: 350px;}
-.cooperationPage .inquiryPage fieldset input[type="submit"]{display: block; width: 282px; height: 70px; font-size: 20px; margin-inline: auto; margin-top: 60px; border: none;}
+.cooperationPage .inquiryPage fieldset input[type="submit"]{display: block; margin-inline: auto; margin-top: 60px; border: none;}
 /* .cooperationPage .inquiryPage fieldset ul li  */

@@ -94,3 +94,8 @@
 .disabledPage .dataPage > div div{gap: 41px;}
 .disabledPage .dataPage > div div ul{gap: 14px;}
 .disabledPage .dataPage > div div ul li{width: calc((100% - 28px) / 3);}
+
+
+/* 협력&납품 */
+/* 협력&납품 - 문의 */
+.cooperationPage .inquiryPage fieldset input[type="submit"]{width: 270px; height: 60px; font-size: 18px;}

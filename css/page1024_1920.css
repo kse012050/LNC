@@ -56,3 +56,16 @@
 /* 장애인 표준 사업장 인증 - 인증 자료 */
 .disabledPage .dataPage > div div{display: flex; align-items: flex-start; justify-content: space-between;}
 .disabledPage .dataPage > div div img{max-width: 33.3333%;}
+
+
+/* 협력&납품 */
+/* 협력&납품 - 문의 */
+.cooperationPage .inquiryPage h3{margin-bottom: 30px;}
+.cooperationPage .inquiryPage fieldset ul li{--height: 60px; display: flex; align-items: flex-start;}
+.cooperationPage .inquiryPage fieldset ul li:not(:has(textarea)){height: var(--height);}
+.cooperationPage .inquiryPage fieldset ul li:not(:last-child){margin-bottom: 20px;}
+.cooperationPage .inquiryPage fieldset ul li label{flex-shrink: 0; width: 240px; line-height: var(--height);}
+.cooperationPage .inquiryPage fieldset ul li *:nth-child(2){padding: 18px 20px;}
+.cooperationPage .inquiryPage fieldset ul li select{max-width: 640px; background-position: right 20px center; background-size: 28px;}
+.cooperationPage .inquiryPage fieldset ul li textarea{min-height: 350px;}
+.cooperationPage .inquiryPage fieldset input[type="submit"]{margin-inline: auto;}

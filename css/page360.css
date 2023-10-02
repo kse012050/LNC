@@ -122,3 +122,16 @@
 .disabledPage .dataPage > div div img{max-width: 100%; margin-bottom: 12px;}
 .disabledPage .dataPage > div div ul{gap: 12px;}
 .disabledPage .dataPage > div div ul li{width: calc((100% - 12px) / 2);}
+
+
+/* 협력&납품 */
+/* 협력&납품 - 문의 */
+.cooperationPage .inquiryPage h3{margin-bottom: 20px;}
+.cooperationPage .inquiryPage p{font-size: 18px; line-height: 24.3333px; margin-bottom: 60px;}
+.cooperationPage .inquiryPage fieldset ul li{--height: 50px;}
+.cooperationPage .inquiryPage fieldset ul li:not(:last-child){margin-bottom: 30px;}
+.cooperationPage .inquiryPage fieldset ul li label{display: block; font-size: 15px; margin-bottom: 15px;}
+.cooperationPage .inquiryPage fieldset ul li *:nth-child(2){font-size: 15px; padding: 15px;}
+.cooperationPage .inquiryPage fieldset ul li select{background-position: right 10px center; background-size: 24px;}
+.cooperationPage .inquiryPage fieldset ul li textarea{min-height: 270px;}
+.cooperationPage .inquiryPage fieldset input[type="submit"]{width: 100%; height: 50px; font-size: 15px;}
