@@ -24,7 +24,7 @@ mark.bg, .bgBox{color: white; background-color: var(--colorPoint2); border-radiu
 
 /* 해더 */
 header{left: 0; top: 0; width: 100%; z-index: 100;}
-header h1 a{background-image: url('../images/logo-w.png'); background-position: center; background-size: cover; text-indent: -9999px;}
+header div h1 a{background-image: url('../images/logo-w.png'); background-position: center; background-size: cover; text-indent: -9999px;}
 
 
 /* 푸터 */

@@ -38,7 +38,7 @@ function tabEvent(){
 }
 
 function mobileMenuEvent(){
-  $('header > button').click(function(){
+  $('header div > button').click(function(){
     $('header').toggleClass('active')
   });
 
